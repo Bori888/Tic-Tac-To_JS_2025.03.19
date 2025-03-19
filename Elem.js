@@ -16,7 +16,7 @@ export default class Elem {
   // megjelenit(): void
   megjelenit() {
     let html =`<div class ="elem">${this.#adat}</div>`
-    this.szuloElem.inserAdjacentHTML("beforeend",html)
+    this.szuloElem.insertAdjacentHTML("beforeend",html)
 
     
   }
